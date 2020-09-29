@@ -7,7 +7,7 @@ import (
 	"net"
 	"net/url"
 
-	"github.com/aler9/gortsplib"
+	"github.com/mivtdole/gortsplib"
 	"github.com/pion/rtp"
 )
 

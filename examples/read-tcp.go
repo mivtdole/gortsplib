@@ -6,7 +6,7 @@ import (
 	"fmt"
 	"net/url"
 
-	"github.com/aler9/gortsplib"
+	"github.com/mivtdole/gortsplib"
 )
 
 func main() {
