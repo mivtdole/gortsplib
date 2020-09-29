@@ -252,7 +252,7 @@ func (c *ConnClient) Options(u *url.URL) (*Response, error) {
 			Scheme: "rtsp",
 			Host:   u.Host,
 			User:   u.User,
-			Path:   "/",
+			Path:   u.Path,
 		},
 	})
 	if err != nil {
